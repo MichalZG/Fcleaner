@@ -59,5 +59,6 @@ def main(work_dir, gift):
                     if move:
                         os.rename(ori_file_path, file_path)
 
+
 if __name__ == "__main__":
     main(work_dir, gift)
